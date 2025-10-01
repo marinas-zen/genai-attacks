@@ -14,7 +14,7 @@
   "name": "AI Model Inference API Access",
   "object_references": [
     {
-      "$id": "$gai-tactic/ml_model_access",
+      "$id": "$gai-tactic/ai_model_access",
       "$type": "tactic",
       "description": "Gaining access to AI model inference APIs to interact with or gather information about machine learning models."
     }

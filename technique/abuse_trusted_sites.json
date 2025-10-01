@@ -2,7 +2,7 @@
   "$id": "$gai-technique/abuse_trusted_sites",
   "$schema": "../schema/technique.schema.json",
   "$type": "technique",
-  "description": "The adversary exfiltrates sensitive data by embedding it in resources loaded from attacker-controlled endpoints hosted trusted domains. This bypasses security controls like Content Security Policies and evades detection by leveraging implicit trust in known sites.",
+  "description": "The adversary exfiltrates sensitive data by embedding it in resources loaded from attacker-controlled endpoints hosted on trusted domains. This bypasses security controls like Content Security Policies and evades detection by leveraging implicit trust in known sites.",
   "external_references": [
     {
       "href": "https://embracethered.com/blog/posts/2023/google-bard-data-exfiltration/?utm_source=chatgpt.com",

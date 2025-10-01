@@ -19,7 +19,7 @@
       "description": "Embedding backdoors in machine learning models to allow unauthorized influence or control over model predictions."
     },
     {
-      "$id": "$gai-tactic/ml_attack_staging",
+      "$id": "$gai-tactic/ai_attack_staging",
       "$type": "tactic",
       "description": "Embedding backdoors in machine learning models to prepare for future exploitation or malicious activities."
     }

@@ -1,5 +1,5 @@
 {
-  "$id": "$gai-technique/erode_ml_model_integrity",
+  "$id": "$gai-technique/erode_ai_model_integrity",
   "$schema": "../schema/technique.schema.json",
   "$type": "technique",
   "description": "Adversaries may degrade the target model's performance with adversarial data inputs to erode confidence in the system over time. This can lead to the victim organization wasting time and money both attempting to fix the system and performing the tasks it was meant to automate by hand.",
@@ -11,7 +11,7 @@
       "href": "https://atlas.mitre.org/techniques/AML.T0031"
     }
   ],
-  "name": "Erode ML Model Integrity",
+  "name": "Erode AI Model Integrity",
   "object_references": [
     {
       "$id": "$gai-tactic/impact",

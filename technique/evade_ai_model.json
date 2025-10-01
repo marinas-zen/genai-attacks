@@ -1,8 +1,8 @@
 {
-  "$id": "$gai-technique/evade_ml_model",
+  "$id": "$gai-technique/evade_ai_model",
   "$schema": "../schema/technique.schema.json",
   "$type": "technique",
-  "description": "Adversaries can craft adversarial data that prevent a machine learning model from correctly identifying the contents of the data. This technique can be used to evade a downstream task where machine learning is utilized. The adversary may evade machine learning based virus/malware detection, or network scanning towards the goal of a traditional cyber attack.",
+  "description": "Adversaries can craft adversarial data that prevent an AI model from correctly identifying the contents of the data. This technique can be used to evade a downstream task where AI is utilized. The adversary may evade AI based virus/malware detection, or network scanning towards the goal of a traditional cyber attack.",
   "external_references": [],
   "framework_references": [
     {
@@ -11,7 +11,7 @@
       "href": "https://atlas.mitre.org/techniques/AML.T0015"
     }
   ],
-  "name": "Evade ML Model",
+  "name": "Evade AI Model",
   "object_references": [
     {
       "$id": "$gai-tactic/initial_access",

@@ -1,0 +1,29 @@
+{
+  "$id": "$gai-technique/triggered_prompt_injection",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "The adversary injects instructions to be followed by the AI system in response to a future event, either a specific keyword or the next interaction. The triggering events can range from simple phrases to complex and covert signals, including encoded or steganographic payloads hidden within seemingly benign content.",
+  "external_references": [
+    {
+      "href": "https://labs.zenity.io/p/prompt-mines-0-click-data-corruption-in-salesforce-einstein-1cfb",
+      "source": "Zenity Labs",
+      "title": "Prompt Mines: 0-Click Data Corruption In Salesforce Einstein"
+    }
+  ],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0051.002",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0051.002"
+    }
+  ],
+  "name": "Triggered Prompt Injection",
+  "object_references": [
+    {
+      "$id": "$gai-technique/llm_prompt_injection",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
+    }
+  ]
+}

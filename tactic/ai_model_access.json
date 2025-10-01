@@ -1,0 +1,17 @@
+{
+  "$id": "$gai-tactic/ai_model_access",
+  "$schema": "../schema/tactic.schema.json",
+  "$type": "tactic",
+  "description": "The adversary is attempting to gain some level of access to an AI model.\n\nAI Model Access enables techniques that use various types of access to the AI model that can be used by the adversary to gain information, develop attacks, and as a means to input data to the model. The level of access can range from the full knowledge of the internals of the model to access to the physical environment where data is collected for use in the AI model. The adversary may use varying levels of model access during the course of their attack, from staging the attack to impacting the target system.\n\nAccess to an AI model may require access to the system housing the model, the model may be publicly accessible via an API, or it may be accessed indirectly via interaction with a product or service that utilizes AI as part of its processes.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.TA0000",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/tactics/AML.TA0000"
+    }
+  ],
+  "name": "AI Model Access",
+  "object_references": [],
+  "tactic_order": 4
+}

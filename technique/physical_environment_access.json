@@ -14,7 +14,7 @@
   "name": "Physical Environment Access",
   "object_references": [
     {
-      "$id": "$gai-tactic/ml_model_access",
+      "$id": "$gai-tactic/ai_model_access",
       "$type": "tactic",
       "description": "Gaining access to the physical environment where machine learning models or systems are deployed to gather information or interact directly."
     }

@@ -1,0 +1,22 @@
+{
+  "$id": "$gai-technique/exfiltration_via_ai_agent_tool_invocation",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may use prompts to invoke an agent's tool capable of performing write operations to exfiltrate data. Sensitive information can be encoded into the tool's input parameters and transmitted as part of a seemingly legitimate action. Variants include sending emails, creating or modifying documents, updating CRM records, or even generating media such as images or videos.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0086",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0086"
+    }
+  ],
+  "name": "Exfiltration via AI Agent Tool Invocation",
+  "object_references": [
+    {
+      "$id": "$gai-tactic/exfiltration",
+      "$type": "tactic",
+      "description": "An adversary can exfiltrate data by encoding it into the input of an invocable tool capable performing a write operation."
+    }
+  ]
+}

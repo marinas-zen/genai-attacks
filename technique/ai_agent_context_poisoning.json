@@ -1,0 +1,22 @@
+{
+  "$id": "$gai-technique/ai_agent_context_poisoning",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may attempt to manipulate the context used by an AI agent's large language model (LLM) to influence the responses it generates or actions it takes. This allows an adversary to persistently change the behavior of the target agent and further their goals.\n\nContext poisoning can be accomplished by prompting an LLM to add instructions or preferences to memory (See [Memory Poisoning](memory_poisoning.html)) or by simply prompting an LLM that uses prior messages in a thread as part of its context (See [Thread Poisoning](thread_poisoning.html)).\n",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0080",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0080"
+    }
+  ],
+  "name": "AI Agent Context Poisoning",
+  "object_references": [
+    {
+      "$id": "$gai-tactic/persistence",
+      "$type": "tactic",
+      "description": "Poisoning the context of AI agents to persistently influence or control future behavior."
+    }
+  ]
+}

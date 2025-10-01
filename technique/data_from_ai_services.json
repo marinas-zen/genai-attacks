@@ -1,0 +1,22 @@
+{
+  "$id": "$gai-technique/data_from_ai_services",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may use their access to a victim organization's AI-enabled services to collect proprietary or otherwise sensitive information. As organizations adopt generative AI in centralized services for accessing an organization's data, such as with chat agents which can access retrieval augmented generation (RAG) databases and other data sources via tools, they become increasingly valuable targets for adversaries.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0085",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0085"
+    }
+  ],
+  "name": "Data from AI Services",
+  "object_references": [
+    {
+      "$id": "$gai-tactic/collection",
+      "$type": "tactic",
+      "description": "Collecting data returned or exposed by AI agents."
+    }
+  ]
+}
