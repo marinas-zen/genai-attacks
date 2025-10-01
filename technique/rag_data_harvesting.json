@@ -4,13 +4,20 @@
   "$type": "technique",
   "description": "The adversary uses the AI system to query for sensitive data indexed by the RAG. Variants include searching through sensitive information in email, chat and shared documents.",
   "external_references": [],
-  "framework_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0085.000",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0085.000"
+    }
+  ],
   "name": "RAG Data Harvesting",
   "object_references": [
     {
-      "$id": "$gai-tactic/collection",
-      "$type": "tactic",
-      "description": "An adversary can harvest sensitive data from various systems through RAG queries."
+      "$id": "$gai-technique/data_from_ai_services",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
     },
     {
       "$id": "$gai-technique/rag_credential_harvesting",

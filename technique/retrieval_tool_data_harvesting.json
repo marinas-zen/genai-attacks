@@ -2,15 +2,22 @@
   "$id": "$gai-technique/retrieval_tool_data_harvesting",
   "$schema": "../schema/technique.schema.json",
   "$type": "technique",
-  "description": "The adversary queries for sensitive data that are accessible to the AI system via an invocable retrieval tool. Variants include plugins and CRM data.",
+  "description": "Adversaries may prompt the AI service to invoke various tools the agent has access to. Tools may retrieve data from different APIs or services in an organization.",
   "external_references": [],
-  "framework_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0085.001",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0085.001"
+    }
+  ],
   "name": "Retrieval Tool Data Harvesting",
   "object_references": [
     {
-      "$id": "$gai-tactic/collection",
-      "$type": "tactic",
-      "description": "An adversary can harvest sensitive data from various systems through invocable retrieval tools."
+      "$id": "$gai-technique/data_from_ai_services",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
     },
     {
       "$id": "$gai-technique/retrieval_tool_credential_harvesting",

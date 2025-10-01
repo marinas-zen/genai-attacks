@@ -1,0 +1,23 @@
+{
+  "$id": "$gai-technique/discover_embedded_knowledge",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may attempt to discover the data sources a particular agent can access. The AI agent's configuration may reveal data sources or knowledge.\n\nThe embedded knowledge may include sensitive or proprietary material such as intellectual property, customer data, internal policies, or even credentials. By mapping what knowledge an agent has access to, an adversary can better understand the AI agent's role and potentially expose confidential information or pinpoint high-value targets for further exploitation.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0084.000",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0084.000"
+    }
+  ],
+  "name": "Discover Embedded Knowledge",
+  "object_references": [
+    {
+      "$id": "$gai-technique/discover_ai_agent_configuration",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
+    }
+  ]
+}

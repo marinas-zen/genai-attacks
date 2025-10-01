@@ -1,0 +1,29 @@
+{
+  "$id": "$gai-technique/memory_poisoning",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may manipulate the memory of a large language model (LLM) in order to persist changes to the LLM to future chat sessions.\n\nMemory is a common feature in LLMs that allows them to remember information across chat sessions by utilizing a user-specific database. Because the memory is controlled via normal conversations with the user (e.g. \u201cremember my preference for \u2026\u201d) an adversary can inject memories via Direct or Indirect Prompt Injection. Memories may contain malicious instructions (e.g. instructions that leak private conversations) or may promote the adversary\u2019s hidden agenda (e.g. manipulating the user).\n",
+  "external_references": [
+    {
+      "href": "https://embracethered.com/blog/posts/2024/chatgpt-hacking-memories/",
+      "source": "Embrace the Red",
+      "title": "ChatGPT: Hacking Memories with Prompt Injection."
+    }
+  ],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0080.000",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0080.000"
+    }
+  ],
+  "name": "Memory Poisoning",
+  "object_references": [
+    {
+      "$id": "$gai-technique/ai_agent_context_poisoning",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
+    }
+  ]
+}

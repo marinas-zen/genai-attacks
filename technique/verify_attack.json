@@ -14,7 +14,7 @@
   "name": "Verify Attack",
   "object_references": [
     {
-      "$id": "$gai-tactic/ml_attack_staging",
+      "$id": "$gai-tactic/ai_attack_staging",
       "$type": "tactic",
       "description": "Testing and validating the effectiveness of a machine learning attack before deployment."
     }

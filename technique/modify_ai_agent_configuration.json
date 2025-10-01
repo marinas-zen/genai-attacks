@@ -1,0 +1,22 @@
+{
+  "$id": "$gai-technique/modify_ai_agent_configuration",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may modify the configuration files for AI agents on a system. This allows malicious changes to persist beyond the life of a single agent and affects any agents that share the configuration.\n\nConfiguration changes may include modifications to the system prompt, tampering with or replacing knowledge sources, modification to settings of connected tools, and more. Through those changes, an attacker could redirect outputs or tools to malicious services, embed covert instructions that exfiltrate data, or weaken security controls that normally restrict agent behavior.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0081",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0081"
+    }
+  ],
+  "name": "Modify AI Agent Configuration",
+  "object_references": [
+    {
+      "$id": "$gai-tactic/persistence",
+      "$type": "tactic",
+      "description": "Altering the configuration of an AI agent to persistently influence its behavior or enable long-term unauthorized control."
+    }
+  ]
+}

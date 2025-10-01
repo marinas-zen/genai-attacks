@@ -1,0 +1,22 @@
+{
+  "$id": "$gai-technique/denial_of_ai_service",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may target AI-enabled systems with a flood of requests for the purpose of degrading or shutting down the service. Since many AI systems require significant amounts of specialized compute, they are often expensive bottlenecks that can become overloaded. Adversaries can intentionally craft inputs that require heavy amounts of useless compute from the AI system.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0029",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0029"
+    }
+  ],
+  "name": "Denial of AI Service",
+  "object_references": [
+    {
+      "$id": "$gai-tactic/impact",
+      "$type": "tactic",
+      "description": "Disrupting or disabling AI services to impact operations or availability."
+    }
+  ]
+}

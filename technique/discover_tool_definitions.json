@@ -1,0 +1,23 @@
+{
+  "$id": "$gai-technique/discover_tool_definitions",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "Adversaries may discover the tools the AI agent has access to. By identifying which tools are available, the adversary can understand what actions may be executed through the agent and what additional resources it can reach. This knowledge may reveal access to external data sources such as OneDrive or SharePoint, or expose exfiltration paths like the ability to send emails, helping adversaries identify AI agents that provide the greatest value or opportunity for attack.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0084.001",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0084.001"
+    }
+  ],
+  "name": "Discover Tool Definitions",
+  "object_references": [
+    {
+      "$id": "$gai-technique/discover_ai_agent_configuration",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
+    }
+  ]
+}

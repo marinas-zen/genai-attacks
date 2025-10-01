@@ -14,7 +14,7 @@
   "name": "Craft Adversarial Data",
   "object_references": [
     {
-      "$id": "$gai-tactic/ml_attack_staging",
+      "$id": "$gai-tactic/ai_attack_staging",
       "$type": "tactic",
       "description": "Creating adversarial data designed to mislead, manipulate, or disrupt machine learning models."
     }

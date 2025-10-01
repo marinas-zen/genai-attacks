@@ -1,0 +1,23 @@
+{
+  "$id": "$gai-technique/direct_prompt_injection",
+  "$schema": "../schema/technique.schema.json",
+  "$type": "technique",
+  "description": "An adversary may inject prompts directly as a user of the LLM. This type of injection may be used by the adversary to gain a foothold in the system or to misuse the LLM itself, as for example to generate harmful content.",
+  "external_references": [],
+  "framework_references": [
+    {
+      "framework_id": "AML.T0051.000",
+      "framework_name": "MITRE ATLAS",
+      "href": "https://atlas.mitre.org/techniques/AML.T0051.000"
+    }
+  ],
+  "name": "Direct Prompt Injection",
+  "object_references": [
+    {
+      "$id": "$gai-technique/llm_prompt_injection",
+      "$type": "technique",
+      "description": "Sub-technique of",
+      "is_sub_object": true
+    }
+  ]
+}
